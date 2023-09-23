@@ -1,0 +1,48 @@
+*{
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.emoji{
+	font-size: 10rem;
+	cursor: pointer;
+	user-select: none;
+}
+
+.closed{
+	display: none;
+}
+
+.open{
+	display: none;
+}
+
+.active{
+	display: block;
+}
+
+/* Apply these styles only to <p> elements */
+
+p.monkey-text {
+  font-family: 'Comic Sans MS', cursive; /* Use a playful font */
+  font-size: 24px; /* Adjust the font size as needed */
+  color: #FF6B6B; /* Use a vibrant, cute color */
+  text-align: center; /* Center the text */
+  padding: 10px; /* Add padding for a friendly look */
+  border: 2px solid #FF6B6B; /* Add a border with the same color */
+  border-radius: 10px; /* Round the corners */
+  background-color: #FFE4E1; /* Use a light background color */
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+}
+
+/* Example for a cute and monkeyish <p> element */
+<p class="monkey-text">This is some cute and monkeyish text.</p>
